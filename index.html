@@ -8,13 +8,13 @@
   </header>
   <form id="survey-form">
     <div class="form-group">
-      <label id="name-label" for="name">Name</label>
+      <label id="name-label" for="name">Nom</label>
       <input
         type="text"
         name="name"
         id="name"
         class="form-control"
-        placeholder="Enter your name"
+        placeholder="Entrer votre nom"
         required
       />
     </div>
@@ -25,28 +25,28 @@
         name="email"
         id="email"
         class="form-control"
-        placeholder="Enter your Email"
+        placeholder="Entrer votre Email"
         required
       />
     </div>
     <div class="form-group">
       <label id="number-label" for="number"
-        >Age<span class="clue">(optional)</span></label
+        >Age<span class="clue">(facultatif)</span></label
       >
       <input
         type="number"
         name="age"
         id="number"
-        min="10"
+        min="18"
         max="99"
         class="form-control"
         placeholder="Age"
       />
     </div>
     <div class="form-group">
-      <p>Which option best describes your current role?</p>
+      <p>Quelle est votre situation professionnelle actuelle?</p>
       <select id="dropdown" name="role" class="form-control" required>
-        <option disabled selected value>Select current role</option>
+        <option disabled selected value>Selectionner les possibilités suivantes</option>
         <option value="student">Student</option>
         <option value="job">Full Time Job</option>
         <option value="learner">Full Time Learner</option>
