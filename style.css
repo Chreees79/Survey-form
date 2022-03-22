@@ -152,13 +152,13 @@ form {
   background-clip:border-box;
   border: 1px solid #cedacf;
   border-radius: 0.25rem;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.10s ease-in-out, box-shadow 0.10s ease-in-out;
 }
 
 .form-control:focus {
   border-color: #80bdff;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(243, 201, 13, 0.932);
+  box-shadow: 0 0 6px 0.2rem rgba(243, 201, 13, 1);
 }
 
 .input-radio,
